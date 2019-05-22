@@ -1,6 +1,11 @@
 # Thanos
 Thanos command,delete half of file in your system
 
+- 先找到当前目录下所有文件
+- 存到txt文本中
+- 通过随机数找到txt的行数，并删除该行
+- 删除txt文本的总行数的一半
+
 for /f "skip=%r% delims=" %%a in (1.txt) do (
 
 echo %%a
